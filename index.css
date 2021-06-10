@@ -414,7 +414,7 @@ font-family: 'Open Sans Condensed', sans-serif; */
     }
     .mainbar{
         left:-14rem;
-        top: -14rem;
+        top: -10rem;
     }
     .food-card h2{
         font-size: 2.2rem;
@@ -431,9 +431,6 @@ font-family: 'Open Sans Condensed', sans-serif; */
     .cart i{
         font-size:5rem;
         color: rgb(255, 6, 6);
-    }
-    .sidebar ul{
-        display: none;
     }
     .toggle{
         display: block;
@@ -460,9 +457,18 @@ font-family: 'Open Sans Condensed', sans-serif; */
     .food-menu{
         width: 110%;
     }
-    .change .sidebar ul{
-        display: block;
-
+    .sidebar ul{
+        top: 10rem;
+        left: -2rem;
+        margin-top:3rem !important;
+        transition: opacity .5s;
+    }
+    .menu li{
+        font-size: 2.8rem !important;
+        color: #000 !important;
+    }
+    .change .menu{
+        opacity: 0;
     }
 }
 @media all and (max-width:550px){
