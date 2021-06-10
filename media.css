@@ -1,0 +1,324 @@
+/* RESPONSIVE MEDIA */
+
+@media all and (max-width : 1920px) {
+    html{
+        font-size: 80%;
+    }
+}
+@media all and (max-width : 1776px) {
+    html{
+        font-size: 65%;
+    }
+    .sidebar ul li{
+        font-size: 2rem;
+    }
+    .sidebar ul{
+        position: relative;
+        left: 1.5rem;
+    }
+
+}
+@media all and (max-width : 1520px) {
+    html{
+        font-size:60%;
+    }
+    .sidebar ul li{
+        font-size: 2rem;
+    }
+}
+@media all and (max-width : 1320px) {
+    html{
+        font-size:55%;
+    }
+    .food-menu{
+        flex-wrap: wrap;
+    }
+    .food-menu .food-card:last-child{
+        display: none;
+    }
+    .sidebar ul li{
+        font-size: 2rem;
+    }
+
+}
+@media all and (max-width : 1270px) {
+    html{
+        font-size:50%;
+    }
+    .mainbar-h{
+        width: 70%;
+        font-size: 6.5rem;
+        position: relative;
+        right: -10rem;
+    }
+    .para{
+        position: relative;
+        top: 40rem;
+    }
+    .food-menu{
+        flex-wrap: wrap;
+        margin-top: .5rem
+    }
+    .food-menu{
+        width: 80%;
+        position: relative;
+        right: -12rem;
+    }
+    .food-card{
+        margin: 1.8rem 2rem;
+    }
+    .food-card img{
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        border-radius: 50%;
+        
+    }
+    .sidebar ul li{
+        font-size: 2rem;
+    }
+
+}
+@media all and (max-width : 1110px){
+    .mainbar-h{
+        left: 15rem;
+        width: 80%;
+    }
+    .mainbar{
+        position: relative;
+        left: -20rem;
+    }
+    .sidebar ul li{
+        font-size: 2rem;
+    }
+}
+@media all and (max-width : 1030px){
+    .para{
+        right: -10rem;
+    }
+}
+@media all and (max-width : 965px){
+    html{
+        font-size: 48%;;
+    }
+    .mainbar{
+        right: 12rem;
+    }
+    .para{
+        right: -15rem;
+    }
+}
+@media all and (max-width:900px){
+    .mainbar-h{
+        font-size: 5.5rem;
+        width: 110%;
+    }
+    .food-menu{
+        width: 100%;
+    }.para{
+        width: 30%;
+    }
+    .mainbar{
+        right: 15rem;
+    }
+    .para{
+        right: -20rem;
+    }
+    
+}
+@media all and (max-width: 800px){
+    html{
+        font-size: 50%
+    }
+    .container{
+        flex-direction: column;
+    }
+    .sidebar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+    }
+    .sidebar ul{
+        flex-direction: row;
+    }
+    .sidebar ul li{
+        font-size: 2rem;
+        margin-right: 1.8rem;
+        position: relative;
+        right: 1.5rem;
+    }
+    
+    .sidebar-b{
+        min-width: 15rem;
+        position: relative;
+        top: -3.8rem;
+        right: 1rem;
+    }
+    .mainbar-info{
+        flex-direction: column;
+    }
+    .mainbar{
+        width: 80%;
+        bottom: 4rem;
+        left: -3rem;
+    }
+    .mainbar-h{
+        width: 70%;
+    }
+    .food-menu{
+        top: -10rem;
+    }
+    .para{
+        top: 62rem;
+        width: 65%;
+        left: 16rem;
+    }
+    .para p{
+        font-size: 2.5rem;
+        line-height: 20px;
+    }
+    
+
+}
+@media all and (max-width:700px){
+    html{
+        font-size: 45%;
+    }
+    .para{
+        top: 65rem;
+        width: 65%;
+        left: 16rem;
+    }
+    .food-menu{
+        top: -12rem;
+    }
+    .sidebar-h{
+        left: -3rem;
+    }
+    .sidebar ul{
+        position: relative;
+        right: 10rem;
+    }
+    .sidebar-b{
+        min-width: 14rem;
+    }
+    .mainbar{
+        left:-8rem;
+    }
+    .food-card h2{
+        font-size: 2.2rem;
+    }
+}
+@media all and (max-width:640px){
+    html{
+        font-size: 40%;
+    }
+    .para{
+        top: 68rem;
+        width: 100%;
+    }
+    .food-menu{
+        top: -12rem;
+    }
+    .sidebar-b{
+        min-width: 14rem;
+    }
+    .mainbar{
+        left:-8rem;
+        top: -10rem;
+    }
+    .food-card h2{
+        font-size: 2.2rem;
+    }
+}
+@media all and (max-width:570px){
+    html{
+        font-size: 32%;
+    }
+    .para{
+        top: 85rem;
+        width: 90%;
+    }
+    .para p{
+        font-size: 3.3rem;
+    }
+    .mainbar{
+        left:-14rem;
+        top: -14rem;
+    }
+    .food-card h2{
+        font-size: 2.2rem;
+    }
+    .sidebar-b{
+        display: none;
+    }
+    .cart{
+        display: block;
+        position: absolute;
+        right: 1rem;
+        top: 0rem;
+    }
+    .cart i{
+        font-size:5rem;
+        color: rgb(255, 6, 6);
+    }
+    .sidebar ul{
+        display: none;
+    }
+    .toggle{
+        display: block;
+
+    } 
+    .toggle i{
+        font-size:5rem;
+        position:absolute;
+        top: 0rem;
+        left: 1rem;
+        color: rgb(255, 6, 6);
+    } 
+    .sidebar-h{
+        position: absolute;
+        top: -1rem;
+        left: 18rem;
+        font-size: 5rem;
+    } 
+    .sidebar{
+        position: relative;
+        top: -5rem;
+        left: 1rem;
+    }
+    .food-menu{
+        width: 110%;
+    }
+    .change .sidebar ul{
+        display: block;
+
+    }
+}
+@media all and (max-width:550px){
+    .mainbar{
+        left:-10rem;
+    }
+}
+@media all and (max-width:445px){
+    html{
+        font-size: 30%;
+    }
+    .food-card h2{
+        font-size: 3rem;
+    }
+    .para{
+        top: 95rem;
+    }
+    .para p{
+        font-size: 3.3rem;
+    }
+    .food-card img{
+        margin: .5rem;
+    }
+    .mainbar{
+        left:-15rem;
+    }
+}
